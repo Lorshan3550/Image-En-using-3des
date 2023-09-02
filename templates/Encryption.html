@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Encryption</title>
+    <link rel="stylesheet" href="{{url_for('static',filename="Files/css/encrypt.css")}}">
+</head>
+<body>
+    <header>
+        <h1>Encryption Process</h1>
+    </header>
+    <div class="out">   
+        <h1 id="d">{{msg}}  {{path}}</h1>
+    </div>
+    <form action="/encryption1" method="POST" enctype="multipart/form-data">
+        <label>Input File</label>
+        <input type="file" name="ui" id="file"><br><br><br>
+        <label>TDES Key</label>
+        <input type="password" placeholder="Enter TDES key" name="tdes"><br><br><br>
+        <input type="submit" name="Proceed" id="sub" value="Encrypt">
+    </form>
+   
+    <form action="\" class="back">
+            <input type="submit" value="Back to Home Page" class="btn btn-primary">
+    </form>
+
+</body>
+<!-- <script>
+    let sub_btn = document.getElementById('sub')
+    sub_btn.addEventListener("click", () => {
+        document.getElementById('d').style.display = "none"
+    })
+</script> -->
+</html>

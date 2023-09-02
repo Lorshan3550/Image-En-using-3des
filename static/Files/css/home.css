@@ -1,0 +1,44 @@
+body{
+    background-image: url("/static/images/back.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    display: inline-block;
+    margin-right: 50px;
+}
+header{
+    text-align: center;
+    background-color: white;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+section{
+    margin-top: 200px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.f1{
+    padding: 20px;
+    margin-left: 60px;
+    margin-right: 30px;
+    background-color: ghostwhite;
+    width: 120px;
+    border-radius: 50px;
+    color: #031633;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+/*section{*/
+/*    margin-left: 600px;*/
+/*    margin-top: 100px;*/
+/*}*/
+/*input{*/
+/*    padding: 30px;*/
+/*    margin-left: 40px;*/
+/*}*/

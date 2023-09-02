@@ -1,0 +1,52 @@
+body{
+    background-image: url("/static/images/b4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+header{
+    background-color: white;
+    color: #146c43;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 50px;
+}
+form{
+    margin-top: 150px;
+    margin-left: 35%;
+}
+
+label{
+    background-color: white;
+    color: #146c43;
+    padding: 5px;
+    margin-right: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+input{
+    width: 40%;
+}
+.back{
+    margin-top: 40px;
+}
+#sub{
+    background-color: #20c997;
+}
+.out{
+    background-color: white;
+    color: red;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-right: 200px;
+    margin-left: 300px;
+    text-align: center;
+
+}
+#file{
+    background-color: white;
+    text-align: center;
+}

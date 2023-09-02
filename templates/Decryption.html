@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Decryption</title>
+    <link rel="stylesheet" href="{{url_for('static',filename="Files/css/decrypt.css")}}">
+</head>
+<body>
+    <header>
+        <h1>Decryption Process</h1>
+    </header>
+    <div>
+        <img src="{{ path }}" alt="No Image" class="im1">
+        <!-- <h1>{{ path }}</h1>
+        <h1>{{ key }}</h1> -->
+    </div>
+    <form action="/decryption1" method="POST" enctype="multipart/form-data" class="frm">
+        <label>Input File</label>
+        <input type="file" name="ui1" class="f1"><br><br>
+        <label>TDES Key</label>
+        <input type="password" placeholder="Enter TDES key" name="tdes1" class="txt"><br><br>
+        <input type="submit" name="Proceed" class="sub">
+    </form>
+
+    <h3 id="msg">{{ msg }}</h3>
+    
+    <form action="\" class="frm2">
+        <input type="submit" value="Back to Home Page" class="back">
+    </form>
+    
+</body>
+</html>
